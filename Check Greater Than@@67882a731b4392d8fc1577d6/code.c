@@ -5,7 +5,7 @@ int main(){
     if(a>b) {
         printf("True\n");
     }
-    ekse{
+    else{
         printf("False\n");
     }
     return 0;
