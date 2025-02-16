@@ -1,8 +1,8 @@
 #include<stdio.h>
-#define PI=3.1415
 int main(){
     float r, a;
+    const float pi = 3.14;
     scanf("%f", &r);
-    printf("Area: %.2f\n", a = PI * r * r);
+    printf("Area: %.2f\n", a = pi * r * r);
     return 0;
 }
