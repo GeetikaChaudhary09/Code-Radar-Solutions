@@ -2,5 +2,6 @@
 int main(){
     int a, n;
     scanf("%d %d", &a, &n);
-    printf("%d\n", n, int(a >> n) & 1);
+    int c = (a>>n)&1;
+    printf("%d\n", n, c);
 }
